@@ -7,11 +7,6 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
-    font-weight: 600;
-}
-
-h2, h3, h4 {
-    font-weight: bold;
 }
 
 a {
@@ -63,7 +58,6 @@ nav span {
     width: 1200px;
     height: 700px;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
     /* change image url to local one */
@@ -84,10 +78,10 @@ nav span {
 /* Tea of The Month Content */
 .featured-tea {
     margin-top: 30px;
+    width: 1000px;
 }
 
 .image-content {
-    width: 1000px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -101,5 +95,29 @@ nav span {
     width: 300px;
     height: 200px;
     display: block;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+
+/* Locations Content */
+.locations {
+    width: 1200px;
+    height: 500px;
+    margin-top: 30px;
+    justify-content: center;
+    padding-top: 85px;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.locations-content {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.address {
+    width: 300px;
+    background-color: black;
+    margin: 20px;
+    opacity: 1;
 }
