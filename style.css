@@ -7,6 +7,7 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    font-weight: 600;
 }
 
 h2, h3, h4 {
@@ -53,6 +54,7 @@ nav span {
     padding-top: 69px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -64,14 +66,40 @@ nav span {
     text-align: center;
     justify-content: center;
     align-items: center;
+    /* change image url to local one */
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
 }
 
-.title {
+.mission .title {
     background-color: black;
     width: 1200px;
 }
 
 .title h2, h4 {
-    margin: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+/* Tea of The Month Content */
+.featured-tea {
+    margin-top: 30px;
+}
+
+.image-content {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    padding: 15px;
+}
+
+.image img {
+    width: 300px;
+    height: 200px;
+    display: block;
+    padding-bottom: 15px;
 }
