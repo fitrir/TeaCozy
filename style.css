@@ -54,7 +54,7 @@ nav span {
 
 
 /* Mission Content */
-.mission {
+#mission {
     width: 1200px;
     height: 700px;
     display: flex;
@@ -63,7 +63,7 @@ nav span {
     background-image: url(./resources/img-mission-background.jpg);
 }
 
-.mission .title {
+#mission .title {
     background-color: black;
     width: 1200px;
 }
@@ -75,7 +75,7 @@ nav span {
 
 
 /* Tea of The Month Content */
-.featured-tea {
+#featured-tea {
     margin-top: 30px;
     width: 1000px;
 }
@@ -99,7 +99,7 @@ nav span {
 
 
 /* Locations Content */
-.locations {
+#locations {
     width: 1200px;
     height: 500px;
     margin-top: 30px;
